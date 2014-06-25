@@ -1,3 +1,5 @@
+#!bin/bash
+
 require_relative '../lib/bake'
 
 BakeCLI.start
