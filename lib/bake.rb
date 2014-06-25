@@ -16,7 +16,7 @@ class BakeCLI < Thor
 
   desc 'init', 'Setup curent directory to use bake'
   method_option :instances, aliases: "-n", desc: "Number of instances to setup",
-    type: :numeric, default: 1
+    type: :numeric, default: 5
   def init
     create_bake_repo
     create_herokus(options[:instances])

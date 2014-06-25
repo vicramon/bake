@@ -26,11 +26,13 @@ Run bundle.
 $ bundle
 ```
 
-Setup bake with `bake init`. Pass the number of Heroku instances you want to create to the `-n` flag:
+Setup bake with `bake init`. Pass the number of Heroku instances you want to create to the `-n` flag. It defaults to 5.
 
 ```
 $ bake init -n 5
 ```
+
+Then go make some coffee, or something. It might take a while.
 
 ## Run
 
