@@ -10,7 +10,6 @@ Gem::Specification.new do |spec|
   spec.email         = ["vic@vicramon.com"]
   spec.summary       = %q{Run your test suite in the cloud.}
   spec.description   = %q{Bake: Run your test suite in the cloud.}
-  spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
