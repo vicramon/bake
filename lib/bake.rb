@@ -56,6 +56,7 @@ class BakeCLI < Thor
     threads = instances.map do |name|
       Thread.new do
         system "git --git-dir .bake push -f #{name} master"
+        system "heroku ps:scale web=0 --app #{name}"
         prepare_for_tests(name)
       end
     end
