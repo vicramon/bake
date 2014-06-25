@@ -12,10 +12,10 @@ Run your Rails test suite in parallel on multiple Heroku instances. The goal of 
 
 ## Setup
 
-Add `bake-heroku` to your Gemfile. Make sure it's under the test group.
+Add `bake-heroku` to your Gemfile. Make sure it's in the development group.
 
 ```
-group :test do
+group :development do
   gem 'bake-heroku'
 end
 ```
