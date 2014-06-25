@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bake/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bake"
+  spec.name          = "bake-heroku"
   spec.version       = Bake::VERSION
   spec.authors       = ["Vic Ramon"]
   spec.email         = ["vic@vicramon.com"]

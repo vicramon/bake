@@ -1,6 +1,6 @@
 # Bake
 
-### WARNING: This is a work in progress.
+### WARNING: This is a prototype and a work in progress.
 
 Run your Rails test suite in parallel on multiple Heroku instances. The goal of this project is to cut the running time of >10 minute test suites to <1 minute.
 
